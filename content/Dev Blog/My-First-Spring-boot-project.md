@@ -3,7 +3,7 @@ title: My First Spring Boot Web Application
 ---
 
 <div align="center">
-<img src="/content/My-First-Spring-boot-project/spring-kotlin.png"/>
+<img src="/My-First-Spring-boot-project/spring-kotlin.png"/>
 </div>
 
 In this article, I will explain the development process of a Tic Tac Toe full-stack game using WebSocket, with Spring Boot as the backend and React.js as the frontend. **I will start with the backend, which powers the frontend, but first, what is Spring Boot?**
@@ -33,7 +33,7 @@ The goal of this project is to explore the Spring Boot ecosystem and its develop
     - WebSocket
 
     it should look like this:
-    <img src="/content/My-First-Spring-boot-project/spring-initializr.png"/>
+    <img src="/My-First-Spring-boot-project/spring-initializr.png"/>
 
 4. Click on Generate
 
@@ -42,7 +42,7 @@ After opening the project the IDE will start downloading the dependencies.
 
 ## Project Architecture
 
-<img src="/content/My-First-Spring-boot-project/app-flow.png"/>
+<img src="/My-First-Spring-boot-project/app-flow.png"/>
 
 1. Client send a message.
 2. The message will be converted to `WsCommand` then by the action from the parsed message, the message will be handled by a service.
